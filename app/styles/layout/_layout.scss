@@ -2,8 +2,6 @@
 // Layout
 // ==========================================================================
 
-//Layout works for IE8
-
 .grid__row {
   @extend .cf;
   margin: 0 auto;
@@ -81,7 +79,7 @@
 }
 
 //Just for visual display of grid layout
-[class*='grid__column--'].-style-guide {
+.grid__column--style-guide {
   text-align: center;
   padding: 1em 0;
   background-color: aliceblue;
